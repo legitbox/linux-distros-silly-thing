@@ -1,0 +1,21 @@
+{
+  "block": {},
+  "item": {},
+  "entity": {},
+  "blogpost": {},
+  "rot": {},
+  "standalone distributions": {
+    "Debian": "/resources_testing/debian.png",
+    "Arch": "/resources_testing/Arch.png",
+    "Void": "/resources_testing/Void.png",
+    "Slackware": "/resources_testing/Slackware.png",
+    "Gentoo": "/resources_testing/Gentoo.png",
+    "NixOS": "/resources_testing/NixOS.png"
+  },
+  "debian based distributions": {
+    "Ubuntu": "/resources_testing/Ubuntu.png",
+    "Linux Mint": "/resources_testing/Linux Mint.png",
+    "PopOS": "/resources_testing/PopOS.png",
+    "Elementary OS": "/resources_testing/Elementary OS.png"
+  }
+}

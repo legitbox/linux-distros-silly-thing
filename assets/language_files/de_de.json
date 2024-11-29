@@ -1,0 +1,42 @@
+{
+  "Epic Iron Hoe": {
+    "page_head": {
+      "title": "Seitentitel",
+      "meta_title": "Meta-Titel"
+    },
+    "page_description": {
+      "object_name": "Objektname",
+      "object_description": "Beschreibung des Objekts."
+    },
+    "page_table": {
+      "default_values_header": "Standardwerte",
+      "table_object_headers": [
+        "Kopfzeile1",
+        "Kopfzeile2"
+      ],
+      "table_object_data": [
+        "Daten1",
+        "Daten2"
+      ]
+    },
+    "page_recipe_table": {
+      "recipe_header": "Rezept",
+      "recipe_process_name": "Prozessname",
+      "recipe_item_input_names": [
+        "Eingabeartikel 1",
+        "Eingabeartikel 2",
+        "Eingabeartikel 3",
+        "Eingabeartikel 4"
+      ],
+      "recipe_item_output_names": [
+        "Ausgabeartikel 1"
+      ]
+    },
+    "wiki_page": {
+      "page_language": "de-de",
+      "navbar": {
+        "home": "Startseite"
+      }
+    }
+  }
+}

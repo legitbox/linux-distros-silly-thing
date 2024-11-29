@@ -1,0 +1,190 @@
+
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Introduction</title>
+          <link rel="stylesheet" href="/assets/styles/wiki_styles.css">
+          <link rel="icon" href="/resources_testing/shrimple_wiki_icon.png" type="image/png">
+          <meta property="og:title" content="Introduction" />
+          <meta property="og:image" content="/resources_testing/shrimple_wiki_icon.png"/>
+        </head>
+        
+        <body>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li><a href="/index.html">home</a></li>
+              <li><a href="/assets/pages/other/settings.html">settings</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main">
+        
+        <div class="container" style="position: sticky; height: 10vh; z-index: 10; top: 1vh" id="navigator">kebabai</div>
+<div class="container" id="introduction">
+        <div class="object_name">
+            <ul>
+<li><h1>Not so much of an introduction</h1></li><li><img src="/resources_testing/shrimple_wiki_icon.png" class="object_display_image_px" alt="object image cannot load!"></li>
+            </ul>
+            <p class="object_description"><p>Shrimple wiki is a simple tool designed to create static pages using static HTML/CSS generation using JSON.</p>
+<p>The entire structure is based on a container system. For example, this description box you are reading right now is a “description” container defined inside the page structure JSON file.</p>
+</p>
+        </div>
+        </div>
+
+<div class="container" id="possibilities">
+        <div class="object_name">
+            <ul>
+
+            </ul>
+            <p class="object_description"><p>Since the design is modular and uses JSON for its structure generation, this allows us to create lots of custom components for easy use inside Spadix projects, as well as in custom websites that can have wikis for other Minecraft mods (like Java) or even other games.</p>
+<p>Time for some features:</p>
+<p><em>Markdown support</em></p>
+<table>
+<thead>
+<tr>
+<th>sandwiches</th>
+<th>toasters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>just enough</td>
+<td>too many!</td>
+</tr>
+</tbody>
+</table>
+</p>
+        </div>
+        </div>
+
+<div class="container" id="video">
+<h2 class="default_values_header">{ Video }</h2>
+<div style="padding: 2vw">
+<iframe width="100%" height="40%" src="https://www.youtube.com/embed/6ZGjWcySCBM?si=GXKJCzjv3dotwsbc" allowfullscreen allow="encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+</div>
+
+
+<div class="container" id="very epic images">
+<div style="justify-items: left; justify-content: left">
+<ul style="list-style-type: none; display: flex; flex-wrap: wrap; justify-content: left">
+<li style="text-align: center"><p>lmao</p><img src="/resources_testing/tech.png" alt="lmao" style="padding: 5px; width: 20vw"></li><li style="text-align: center"><p>even more lmao</p><img src="/resources_testing/uber.png" alt="even more lmao" style="padding: 5px; width: 20vw"></li></ul></div></div>
+<div class="container" id="code example">
+<h2 class="default_values_header">{ funky script }</h2>
+<div style="padding: 2vw">
+<link rel="stylesheet" href="../../../assets/styles/github-dark.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<pre><code>defmodule SimpleCalculator do
+  def start do
+    IO.puts("Welcome to the Elixir Calculator!")
+    IO.puts("Choose an operation:")
+    IO.puts("1) Addition (+)")
+    IO.puts("2) Subtraction (-)")
+    IO.puts("3) Multiplication (*)")
+    IO.puts("4) Division (/)")
+    
+    operation = IO.gets("Enter the number of the operation: ") |> String.trim() |> String.to_integer()
+
+    num1 = IO.gets("Enter the first number: ") |> String.trim() |> String.to_float()
+    num2 = IO.gets("Enter the second number: ") |> String.trim() |> String.to_float()
+
+    result =
+      case operation do
+        1 -> num1 + num2
+        2 -> num1 - num2
+        3 -> num1 * num2
+        4 -> 
+          if num2 == 0 do
+            "Error: Division by zero is not allowed."
+          else
+            num1 / num2
+          end
+        _ -> "Invalid operation selected."
+      end
+
+    IO.puts("Result: #{result}")
+  end
+end
+
+SimpleCalculator.start()
+</code></pre>
+</div>
+</div>
+
+<div class="container" id="table">
+        <div class="data_table_div">
+          <table class="data_table">
+            <h2 class="default_values_header">{ Default values }</h2>
+        
+            <tr>
+                <th class="table_object_header">yes</th>
+                <th class="table_object_data">so true</th>
+            </tr>
+            
+            <tr>
+                <th class="table_object_header">yes, but more</th>
+                <th class="table_object_data">bestie</th>
+            </tr>
+            
+        </table>
+        </div>
+        </div>
+        
+<div class="container" id="rolly_table">
+        <div class="recipe_div">
+            <h2 class="recipe_header">{ Recipe }</h2>
+            <ul class="recipe_list">
+                <table class="recipe_table">
+        <tr>
+<th><img src="/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp,/resources_testing/Enchanted_Iron_Hoe.webp" class="crafting_table_item" title="amogus,amogus,amogus,amogus,amogus,amogus,amogus,amogus,amogus"></th>
+<th><img src="/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp,/resources_testing/Iron_Hoe_JE2_BE2.webp" class="crafting_table_item" title="brogus,brogus,brogus,brogus,brogus,brogus,brogus,brogus,brogus"></th>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+</tr>
+<tr>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+</tr>
+<tr>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+<th><img src="undefined" class="crafting_table_item" title="undefined"></th>
+</tr>
+</table><p class="creation_process_name">crafting -></p><table class="recipe_table_result">
+<tr>
+<th><img src="/resources_testing/melon.png" class="crafting_table_item" title="pain"></th></tr>
+</table>
+</ul>
+</div>
+</div>
+<script>
+
+console.log('initialised :3')
+
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const input_image_paths = [["/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp","/resources_testing/Enchanted_Iron_Hoe.webp"],["/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp","/resources_testing/Iron_Hoe_JE2_BE2.webp"]]
+const images = document.querySelectorAll('.crafting_table_item');
+
+async function swap_looper(){
+    for (i = 0; i < input_image_paths.length; i++) {
+        const input_image_subpaths = input_image_paths[i];
+        for (j = 0; j < input_image_subpaths.length; j++) {
+            console.log(input_image_subpaths[j])
+            images[j].src = input_image_subpaths[j]
+        }
+        await sleep(2000);
+    }
+    await swap_looper();
+}
+
+swap_looper();
+
+</script>
+</div>
+        </body>

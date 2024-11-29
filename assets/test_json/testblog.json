@@ -1,0 +1,35 @@
+{
+  "page_initializer": {
+    "index_page_title": "Epic Minecraft wiki 2",
+    "index_page_icon_path": "/resources_testing/cinnamon.png",
+    "object_type": "blogpost",
+    "page_language": "en_us",
+    "page_head": {
+      "title": "a very epic Blogpost",
+      "icon_path": "/resources_testing/cookie.png"
+    },
+    "containers":{
+      "custom_description": "description",
+      "custom_video_player": "video_player",
+      "custom_images": "images",
+      "custom_code_snippet": "code_snippet"
+    }
+  },
+  "custom_description": {
+    "object_name": "A very epic Blogpost",
+    "object_image_path": "/resources_testing/cookie.png",
+    "object_description": "This is a simple table of people and their details:\n\n| Name    | Age | Occupation    |\n|---------|-----|---------------|\n| Alice   | 25  | Engineer      |\n| Bob     | 30  | Designer      |\n| Charlie | 28  | Developer     |\n\nThis table represents basic information, and you can modify it with your own data as needed.\n"
+  },
+  "custom_video_player": {
+    "video_url": "https://www.youtube.com/embed/MmB9b5njVbA?si=pYp2e4Lkp_kVOE4v"
+  },
+  "custom_code_snippet": {
+    "code_snippet_name": "Rust code Snippet",
+    "code_snippet": "use std::io;\n\nfn main() {\n    println!(\"Welcome to the Shrimple Calculator!\");\n\n    loop {\n        println!(\"\\nEnter the first number:\");\n        let mut num1 = String::new();\n        io::stdin().read_line(&mut num1).expect(\"Failed to read line\");\n        let num1: f64 = num1.trim().parse().expect(\"Please enter a valid number\");\n\n        println!(\"Enter an operator (+, -, *, /):\");\n        let mut operator = String::new();\n        io::stdin().read_line(&mut operator).expect(\"Failed to read line\");\n        let operator = operator.trim();\n\n        println!(\"Enter the second number:\");\n        let mut num2 = String::new();\n        io::stdin().read_line(&mut num2).expect(\"Failed to read line\");\n        let num2: f64 = num2.trim().parse().expect(\"Please enter a valid number\");\n\n        let result = match operator {\n            \"+\" => num1 + num2,\n            \"-\" => num1 - num2,\n            \"*\" => num1 * num2,\n            \"/\" => {\n                if num2 == 0.0 {\n                    println!(\"Error: Cannot divide by zero.\");\n                    continue;\n                } else {\n                    num1 / num2\n                }\n            }\n            _ => {\n                println!(\"Invalid operator! Please use +, -, *, or /.\");\n                continue;\n            }\n        };\n\n        println!(\"The result of {} {} {} is: {}\", num1, operator, num2, result);\n\n        println!(\"\\nDo you want to perform another calculation? (y/n):\");\n        let mut again = String::new();\n        io::stdin().read_line(&mut again).expect(\"Failed to read line\");\n        if again.trim().to_lowercase() != \"y\" {\n            println!(\"Goodbye!\");\n            break;\n        }\n    }\n}\n"
+  },
+  "custom_images": {
+    "image_paths": ["/resources_testing/2023-05-18_21.png", "/resources_testing/2023-05-18_21.png"],
+    "image_descriptions": ["Image 1 with some cool shit","Image 2 with some other cool shit"],
+    "image_sizes": [35, 35]
+  }
+}

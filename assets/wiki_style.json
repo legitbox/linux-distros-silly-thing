@@ -1,0 +1,16 @@
+{
+  "object_image_rendering_mode": "pixelated",
+  "object_image_size": 64,
+  "container_blur_amount": 10,
+  "default_font_family": "retro",
+  "default_font_path": "/resources_testing/Retro Banker.ttf",
+  "default_font_type": "truetype",
+  "default_text_color": "#ff82e0",
+  "default_header_color": "#ff5c00",
+  "use_background_image": true,
+  "default_website_background_color": "#262626",
+  "default_container_background_color": "rgba(110,110,110,0.51)",
+  "default_background_image_path": "/resources_testing/bytescapeslinux.png",
+  "default_border_color": "rgba(182, 255, 157, 0.6)",
+  "default_border_fill_color": "rgba(153, 213, 117, 0.3)"
+}
